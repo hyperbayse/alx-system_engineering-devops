@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Bash script that kills the process 7-highlander.
+# Assuming the process name is 7-highlander
+
+
+process_name="7-highlander"
+
+# Use pkill to kill the process
+pkill -9 -f "$process_name"
